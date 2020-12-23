@@ -1,54 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
-    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" 
-    crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!--Navbar-->
-    <section id="showcase">
-        <div class="showcase container">
-            <div class="menubar">
-                <p >YEINYDD</p>
-                <ul >
-                    <li class="icon">HOME <i class="fas fa-sort-down"></i>
-                        <ul>
-                            <li><a href="pages/gallery.html">Gallery</a></li>
-                            <li><a href="pages/full width.html">Full Width</a></li>
-                            <li><a href="pages/sidebar left.html">Sidebar Left</a></li>
-                            <li><a href="pages/sidebar right.html">Sidebar Right</a></li>
-                            <li><a href="pages/basic grid.html">Basic Grid</a></li>
-                            <li><a href="pages/font icon.html">Font Icon</a></li>
-                        </ul>
-                    </li>
-                    <li class="icon">PAGES <i class="fas fa-sort-down"></i>
-                        <ul>
-                            <li>Level 2</li>
-                            <li class="hover-me"><i class="fas fa-sort-down"></i>  Level 2 + Drop
-                            <div class="sub-menu-2">
-                                    <ul >
-                                        <li>Level 3</li><br>
-                                        <li>Level 3</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>Level 2</li>
-                        </ul>
-                    </li>
-                    <li>DROPDOWN</li>
-                    <li>LINK TEXT</li>
-                    <li>LINK TEXT</li>
-                    <li>LINK TEXT</li>
-                    <li>LONG LINK TEXT</li>
-                </ul>
-            </div>
+  <!--Navbar-->
+  <header>
+    <div id="showcase">
+      <div class="menubar-container">
+        <div class="menubar">
+          <h1>YEINYDD</h1>
+          <ul class="menu">
+            <li>HOME</li>
+            <li>
+              <i class="fas fa-sort-down"></i>
+              PAGES
+              <ul>
+                <li><a href="pages/gallery.html">Gallery</a></li>
+                <li><a href="pages/full width.html">Full Width</a></li>
+                <li><a href="pages/sidebar left.html">Sidebar Left</a></li>
+                <li><a href="pages/sidebar right.html">Sidebar Right</a></li>
+                <li><a href="pages/basic grid.html">Basic Grid</a></li>
+                <li><a href="pages/font icon.html">Font Icon</a></li>
+              </ul>
+            </li>
+            <li><i class="fas fa-sort-down"></i>
+              DROPDOWN
+              <ul>
+                <li>Level 2</li>
+                <li class="hover-me">
+                  <i class="fas fa-sort-down"></i> Level 2 + Drop
+                  <div class="sub-menu-2">
+                    <ul>
+                      <li>Level 3</li>
+                      <br>
+                      <li>Level 3</li>
+                    </ul>
+                  </div>
+                </li>
+                <li>Level 2</li>
+              </ul>
+            </li>
+            <li>LINK TEXT</li>
+            <li>LINK TEXT</li>
+            <li>LINK TEXT</li>
+            <li>LONG LINK TEXT</li>
+          </ul>
         </div>
+      </div>
+
+      <div class="showcase-container">
+        <h1>Gravida Ligula Pulvinar</h1>
+        <p>sem eu tincidunt magna nulla eu
+          turpis manuris eget ante fusce pharetra
+          sodales arcu rutrum ipsum a ipsum.
+        </p>
+        <form>
+          <div class="from-group">
+            <input type="email" name="eail" placeholder="Email Here...">
+            <button class="fas fa-sign-in-alt" type="submit" title="submit"></button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--Main body-->
+    <section id="introblocks">
+      <div class="section-title">
+        <h2>Quisque Adipiscing</h2>
+        <p> Urna sed augue class aptent taciti sociosqu ad litora torquent</p>
+      </div>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-golf-ball fa-3x"></i>
+          <div>
+            <h2>Suspendisse</h2>
+            <p>Per conubia nostra per mauris aliquet massa
+              nulla facilisi porta ligula non elementum
+            </p>
+          </div>
+          <button class="btn btn-bg">MORE DETAILS</button>
+        </div>
+        <div class="item">
+          <i class="fas fa-ribbon fa-3x"></i>
+          <div>
+            <h2>Inceptos</h2>
+            <p>Ultricies justo urna egestas metus ut ornare
+              leo augue pharetra risus morbi tincidunt mess
+            </p>
+          </div>
+          <button class="btn btn-bg">MORE DETAILS</button>
+        </div>
+        <div class="item">
+          <i class="fas fa-tablets fa-3x"></i>
+          <div>
+            <h2>Himenaeos</h2>
+            <p>Ac vestibulum rutrum orci augue iaculis nibh quis
+              porta nunc nisi suscipit leo nam ac lacus
+            </p>
+          </div>
+          <button class="btn btn-bg">MORE DETAILS</button>
+        </div>
+        <div class="item">
+          <i class="fas fa-wine-glass fa-3x"></i>
+          <div>
+            <h2>Facilities</h2>
+            <p>Cras tempor ultricies urna aliquam massa
+              sapien posuere in iaculis adipiscing vulputate</p>
+          </div>
+          <button class="btn btn-bg">MORE DETAILS</button>
+        </div>
+      </div>
     </section>
+    <!--Refarence-->
+    <section id="refarence">
+      <div class="section-title">
+        <h2>Aliquet Vestibulum</h2>
+        <p>Eget magna eget sem imperdiet
+          tincidunt vestibulum fringilla nulla
+        </p>
+      </div>
+      <div class="ref-short">
+        <ul>
+          <li><a class="current" href="index.html">ultricies <strong>/</strong></a></li>
+          <li><a href="#">curabitur <strong>/</strong></a></li>
+          <li><a href="#">prottior <strong>/</strong></a></li>
+          <li><a href="#">pulvinar<strong>/</strong></a></li>
+        </ul>
+        <div class="bg-img card">
+          <img src="img/section-1.jpg" alt="">
+          <img src="img/section-2.jpg" alt="">
+          <img src="img/section-3.jpg" alt="">
+          <img src="img/section-4.jpg" alt="">
+          <img src="img/section-5.jpg" alt="">
+          <img src="img/section-6.jpg" alt="">
+        </div>
+        <button class="btn">view more here</button>
+      </div>
+    </section>
+
+    <!--Wrapper row3-->
+    <section id="home-container">
+
+      <div class="section-title">
+        <h2>Pellentesque Consecteture</h2>
+        <p>Felis vitae sapien gravida interdum curabitur eu quam nec est</p>
+      </div>
+
+      <div class="article-container">
+
+        <article class="bg-img card">
+          <img src="img/home-1.jpg" alt="">
+          <div class="excerpt">
+            <time datetime="2020-12-01,:15+00:00"><i class="far fa-calendar-alt"></i>01 <sup>rd</sup>Decemb 2020 @
+              13:38am </time>
+            <h3>Aliquam Volutpat Donec Posuere</h3>
+            <ul class="meta">
+              <li><i class="fas fa-user rgtspace-5"></i><a href="">Admin <strong>|</strong></a></li>
+              <li><i class="fas fa-tags rgtspace-5"></i><a href="">Tag 1, <a href="">Tag 2</a></li>
+            </ul>
+            <p>Ornare dolor phasellus ornare dui vel euismod
+              ultrices orci libero pulvinar justo quis condimentum quam.
+            </p>
+            <button class=" btn btn-bg">full story</button>
+          </div>
+        </article>
+
+        <article class="bg-img card">
+          <img src="img/home-2.jpg" alt="">
+          <div class="excerpt">
+            <time datetime="2020-12-02,:15+00:00"><i class="far fa-calendar-alt"></i>02 <sup>nd</sup>Decemb 2020 @
+              13:38am </time>
+            <h3>Nisl Id Ligula Pellentesque</h3>
+            <ul class="meta">
+              <li><i class="fas fa-user rgtspace-5"></i><a href="">Admin <strong>|</strong></a></li>
+              <li><i class="fas fa-tags rgtspace-5"></i><a href="">Tag 1, </a><a href="">Tag 2</a></li>
+            </ul>
+            <p>Felis nunc interdum vitae pretium ac bibendum
+              vel velit phasellus commodo nullam vitae quam cras auctor.
+            </p>
+            <button class=" btn btn-bg">full story</button>
+          </div>
+        </article>
+        <article class="bg-img card">
+          <img src="img/home-3.jpg" alt="">
+          <div class="excerpt">
+            <time datetime="2020-12-02,:15+00:00"><i class="far fa-calendar-alt"></i>03 <sup>rd</sup>Decemb 2020 @
+              13:38am </time>
+            <h3>Commodo Metus Proin Blandit</h3>
+            <ul class="meta">
+              <li><i class="fas fa-user rgtspace-5"></i><a href="">Admin <strong>|</strong></a></a></li>
+              <li><i class="fas fa-tags rgtspace-5"></i><a href="">Tag 1, </a><a href="">Tag 2</a></li>
+            </ul>
+            <p>Quam molestie luctus vehicula orci massa interdum
+              justo nec rutrum risus augue ut nisl suspendisse elit.
+            </p>
+            <button class="btn btn-bg">full story</button>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--testimonials-->
+    <div id="testimonials">
+      <div class="testimonials-content">
+        <div class="section-title">
+          <h2>Donec Condimentum</h2>
+          <p>Adipiscing justo nulla mollis iaculis
+            tortor in mauris integer</p>
+        </div>
+        <div class=" test-container">
+          <div>
+            <img src="img/test-1.jpg" alt="">
+            <div class="test-excerpt">
+              <p>Pretium duis viverra malesuada mi proin
+                iaculis mauris eu sodales cursus sapien erat
+                pharetra justo vitae volutpat eros magna
+                et magna mauris hendrerit pellentesque.
+              </p>
+              <h3>A. Doe</h3>
+              <p class="test">Et ipsum mattis ipsum</p>
+            </div>
+          </div>
+          <div>
+            <img src="img/test-2.jpg" alt="">
+            <div class="test-excerpt">
+              <p>Pellentesque pretium proin molestie erat in
+                rhoncus posuere nibh quam consectetuer lectus ac
+                vulputate ligula lorem ut dolor
+                duis tempus mauris nunc et ligula ut.</p>
+              <h3>B. Doe</h3>
+              <p class="test">Tortor suscipit convallis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Wrapper-->
+    <div class="wrapper-row">
+      <div>
+        <h2>Sed Ullamcorper Arcu Eu
+          Ante Ut Sollicitudin Sem Sit Amet</h2>
+      </div>
+      <div class="wrapper-btn">
+        <button class="btn ">ipsum fusce non pede</button>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer id="main-footer">
+      <div class="footer-container">
+        <div class="footer-divission">
+          <div class="mm">
+            <h3>Non Erat Varius Lacinia</h3>
+            <p>Morbi tincidunt in hac habitasse platea dictumst praesent
+              pretium donec tincidunt laoreet diam nullam augue.
+            </p>
+            <p>Tortor rhoncus sed dictum vitae viverra posuere
+              lorem pellentesque suscipit
+              eros vel ante curabitur pretium [<i class=" fas fa-arrow-right"></i>]
+            </p>
+            <div class="icons">
+              <i class="fas fa-basketball-ball"></i>
+              <i class=" fab fa-facebook"></i>
+              <i class="fab fa-google-plus-g fa-1x"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-vk"></i>
+            </div>
+          </div>
+          <div>
+            <h3>Enim Et Mauris Quisque Vitae</h3>
+            <p>Libero class aptent taciti
+              sociosqu ad litora torquent per conubia nostra.
+            </p>
+            <form>
+              <input type="name" placeholder="Name">
+              <input type="email" placeholder="Email">
+              <button>SUBMIT</button>
+            </form>
+          </div>
+          <div>
+            <h3>Per Inceptos Himenaeos</h3>
+            <img src="img/footer-1.jpg" alt="">
+            <img src="img/footer-2.jpg" alt="">
+            <img src="img/footer-3.jpg" alt="">
+            <img src="img/footer-4.jpg" alt="">
+            <img src="img/footer-5.jpg" alt="">
+            <img src="img/footer-6.jpg" alt="">
+          </div>
+        </div>
+      </div>
+                <!-- <hr class="hr"> -->
+      <div class="ct-details">
+        <ul>
+
+          <li>
+            <div class="block-clear">
+              <a href=""><i class="fas fa-phone"></i></a><span><strong>Give Us A Call:</strong>+88 (123) 456 7890</span>
+            </div>
+          </li>
+          <li>
+            <div class="block-clear">
+              <a href=""><i class="fas fa-envelope"></i></a><span><strong>Send Us A
+                  Mail:</strong>support@domain.com</span>
+            </div>
+          </li>
+          <li>
+            <div class="block-clear">
+              <a href=""><i class="fas fa-clock"> </i></a><span><strong>Monday - Saturday:</strong>08.00am -
+                18.00pm</span>
+            </div>
+          </li>
+          <li>
+            <div class="block-clear">
+              <a href=""><i class="fas fa-map-marker-alt"></i></a><span><strong>Come Visit Us:</strong>Directions to <a
+                  href=""> our location</a></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="wrapper2">
+        <p>Copyright &copy 2020 All rights Reserved-Domain Name</p>
+        <p>Template by OS Templates</p>
+      </div>
+    </footer>
+
+  </header>
 </body>
+
 </html>
