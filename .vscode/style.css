@@ -2,11 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-header {
-    width: 100%;
-    height: auto;
+.container {
+   position: sticky;
+    min-width: 800px;
+    overflow: hidden;
+
 }
 
 
@@ -228,16 +231,17 @@ input {
 }
 
 #introblocks .items {
-    display: grid;
-    grid-template-columns: repeat(4, 4fr);
-    width: 100%;
+    display: flex;
     padding: 4rem 4.7rem;
-    text-align: center;
+
+   
 
 }
 
 #introblocks .items .item {
-    padding: 1.1rem;
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
 }
 
 #introblocks .items .item i {
@@ -657,9 +661,11 @@ strong {
 }
 
 
-@media(max-width){
-    
-}
+  
+
+
+
+
 
 
 
