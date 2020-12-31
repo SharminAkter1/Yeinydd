@@ -7,8 +7,8 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
   integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" media="media screen and (max-width:800px)" href="css/mobile.css">  
+  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" media="screen and (max-width: 767px)" href="mobile.css">
   
 </head>
 
@@ -18,45 +18,52 @@
     <div id="showcase">
       <div class="menubar-container">
         <div class="menubar">
+         
           <h1>YEINYDD</h1>
-          <ul class="menu">
-            <li>HOME</li>
-            <li>
-              <i class="fas fa-sort-down"></i>
-              PAGES
-              <ul>
-                <li><a href="pages/gallery.html">Gallery</a></li>
-                <li><a href="pages/full width.html">Full Width</a></li>
-                <li><a href="pages/sidebar left.html">Sidebar Left</a></li>
-                <li><a href="pages/sidebar right.html">Sidebar Right</a></li>
-                <li><a href="pages/basic grid.html">Basic Grid</a></li>
-                <li><a href="pages/font icon.html">Font Icon</a></li>
-              </ul>
-            </li>
-            <li><i class="fas fa-sort-down"></i>
-              DROPDOWN
-              <ul>
-                <li>Level 2</li>
-                <li class="hover-me">
-                  <i class="fas fa-sort-down"></i> Level 2 + Drop
-                  <div class="sub-menu-2">
-                    <ul>
-                      <li>Level 3</li>
-                      <br>
-                      <li>Level 3</li>
-                    </ul>
-                  </div>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn"><span>MENU</span><i class="fas fa-angle-down"></i></label>
+           
+              <ul class="menu">
+                <li>HOME</li>
+                <li>
+                  <i class="fas fa-sort-down"></i>
+                  PAGES
+                  <ul>
+                    <li><a href="pages/gallery.html">Gallery</a></li>
+                    <li><a href="pages/full width.html">Full Width</a></li>
+                    <li><a href="pages/sidebar left.html">Sidebar Left</a></li>
+                    <li><a href="pages/sidebar right.html">Sidebar Right</a></li>
+                    <li><a href="pages/basic grid.html">Basic Grid</a></li>
+                    <li><a href="pages/font icon.html">Font Icon</a></li>
+                  </ul>
                 </li>
-                <li>Level 2</li>
+                <li><i class="fas fa-sort-down"></i>
+                  DROPDOWN
+                  <ul>
+                    <li>Level 2</li>
+                    <li class="hover-me">
+                      <i class="fas fa-sort-down"></i> Level 2 + Drop
+
+                      <div class="sub-menu-2">
+                        <ul>
+                          <li>Level 3</li>
+                          <li>Level 3</li>
+                          <li>Level 3</li>
+                        </ul>
+                      </div>
+                      
+                    </li>
+                    <li>Level 2</li>
+                  </ul>
+                </li>
+                <li>LINK TEXT</li>
+                <li>LINK TEXT</li>
+                <li>LINK TEXT</li>
+                <li>LONG LINK TEXT</li>
               </ul>
-            </li>
-            <li>LINK TEXT</li>
-            <li>LINK TEXT</li>
-            <li>LINK TEXT</li>
-            <li>LONG LINK TEXT</li>
-          </ul>
         </div>
       </div>
+   
 
       <div class="showcase-container">
         <h1>Gravida Ligula Pulvinar</h1>
@@ -134,7 +141,7 @@
           <li><a class="current" href="index.html">ultricies <strong>/</strong></a></li>
           <li><a href="#">curabitur <strong>/</strong></a></li>
           <li><a href="#">prottior <strong>/</strong></a></li>
-          <li><a href="#">pulvinar<strong>/</strong></a></li>
+          <li><a href="#">pulvinar</a></li>
         </ul>
         <div class="bg-img card">
           <img src="img/section-1.jpg" alt="">
@@ -161,7 +168,7 @@
         <article class="bg-img card">
           <img src="img/home-1.jpg" alt="">
           <div class="excerpt">
-            <time datetime="2020-12-01,:15+00:00"><i class="far fa-calendar-alt"></i>01 <sup>rd</sup>Decemb 2020 @
+            <time datetime="2020-12-01,:15+00:00"><i class="far fa-calendar-alt"></i>01 <sup>rd</sup>April 2020 @
               13:38am </time>
             <h3>Aliquam Volutpat Donec Posuere</h3>
             <ul class="meta">
@@ -178,7 +185,7 @@
         <article class="bg-img card">
           <img src="img/home-2.jpg" alt="">
           <div class="excerpt">
-            <time datetime="2020-12-02,:15+00:00"><i class="far fa-calendar-alt"></i>02 <sup>nd</sup>Decemb 2020 @
+            <time datetime="2020-12-02,:15+00:00"><i class="far fa-calendar-alt"></i>02 <sup>nd</sup>April 2020 @
               13:38am </time>
             <h3>Nisl Id Ligula Pellentesque</h3>
             <ul class="meta">
@@ -194,7 +201,7 @@
         <article class="bg-img card">
           <img src="img/home-3.jpg" alt="">
           <div class="excerpt">
-            <time datetime="2020-12-02,:15+00:00"><i class="far fa-calendar-alt"></i>03 <sup>rd</sup>Decemb 2020 @
+            <time datetime="2020-12-02,:15+00:00"><i class="far fa-calendar-alt"></i>03 <sup>rd</sup>April 2020 @
               13:38am </time>
             <h3>Commodo Metus Proin Blandit</h3>
             <ul class="meta">
@@ -218,7 +225,7 @@
             tortor in mauris integer</p>
         </div>
         <div class=" test-container">
-          <div>
+          <div> 
             <img src="img/test-1.jpg" alt="">
             <div class="test-excerpt">
               <p>Pretium duis viverra malesuada mi proin
@@ -246,19 +253,21 @@
     </div>
     <!--Wrapper-->
     <div class="wrapper-row">
-      <div>
-        <h2>Sed Ullamcorper Arcu Eu
-          Ante Ut Sollicitudin Sem Sit Amet</h2>
-      </div>
-      <div class="wrapper-btn">
-        <button class="btn ">ipsum fusce non pede</button>
+        <div class="w-container">
+          <div>
+            <h2>Sed Ullamcorper Arcu Eu
+              Ante Ut Sollicitudin Sem Sit Amet</h2>
+          </div>
+          <div class="wrapper-btn">
+            <button class="btn ">ipsum fusce non pede</button>
+          </div>
       </div>
     </div>
     <!--Footer-->
     <footer id="main-footer">
       <div class="footer-container">
         <div class="footer-divission">
-          <div class="mm">
+          <div class="main-container">
             <h3>Non Erat Varius Lacinia</h3>
             <p>Morbi tincidunt in hac habitasse platea dictumst praesent
               pretium donec tincidunt laoreet diam nullam augue.
@@ -276,7 +285,7 @@
               <i class="fab fa-vk"></i>
             </div>
           </div>
-          <div>
+          <div class="main-container">
             <h3>Enim Et Mauris Quisque Vitae</h3>
             <p>Libero class aptent taciti
               sociosqu ad litora torquent per conubia nostra.
@@ -287,7 +296,7 @@
               <button>SUBMIT</button>
             </form>
           </div>
-          <div>
+          <div class="main-container">
             <h3>Per Inceptos Himenaeos</h3>
             <img src="img/footer-1.jpg" alt="">
             <img src="img/footer-2.jpg" alt="">
