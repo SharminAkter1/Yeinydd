@@ -401,17 +401,6 @@ input {
          margin-bottom: 1rem;
      }
     
-    .menubar ul {
-        position: fixed ;
-        width: 100vw;
-        height: 32vh;
-        background: #2c3c4b;
-        top: 11.6rem;
-        left: -100%;
-        display: block;
-        margin-left: 2rem;
-    }
- 
      .menubar {
          padding: 1.5rem 0;
          width: 100%;
@@ -420,6 +409,27 @@ input {
          text-align: center;
          align-items: center;
      }
+
+
+     .menu {
+        position: fixed ;
+        width: 100%;
+        height: 63vh;
+        background: #2c3c4b;
+        top: 13.7rem;
+        left: -100%;
+        padding-top: 5rem;
+        transition: all .9s ease-in;
+     }
+
+     #showcase .menu .media {
+         display: none;
+     }
+    
+    #showcase ul  {
+        font-size: 8.1px;
+    }
+
  
     #check:checked ~ ul {
         left:0;
@@ -433,20 +443,43 @@ input {
         margin-top: 4rem;
     }
     /**introblocks **/
+
+    .section-title{
+        font-size: 1.2rem;
+    }
     #introblocks .items {
         margin-left: -0.6rem;
         padding-bottom: 4rem;
+        padding-top: 2.2rem;
+    }
+
+    #introblocks .items i {
+        font-size: 2.9rem;
+    }
+
+    #introblocks .items h2 {
+       font-size: 1.5rem;
     }
     /** section referance **/
+
+    .ref-short ul li {
+        font-size: 0.6rem;
+    }
+
+    .ref-short strong {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
     .bg-img img {
         width: 320px;
         height: 260px; 
         padding: 0.9rem 0.9rem;  
     }
     .ref-short .btn {
-        margin-left: 0.9rem;
-        margin-top: 1.6rem;
-        margin-bottom: 4rem;   
+        margin-left: 4.6rem;
+        margin-top: 2.3rem;
+        margin-bottom: 3.2rem;   
     }
    /**wrapper row3 **/
     .excerpt {
@@ -539,17 +572,24 @@ input {
          margin-bottom: 1rem;
      }
     
-    .menubar ul {
+     .menu {
         position: fixed ;
-        width: 77%;
-        height: 31vh;
+        width: 100%;
+        height: 56vh;
         background: #2c3c4b;
-        top: 11.6rem;
+        top: 13.7rem;
         left: -100%;
-        display: block;
-        margin-left: 2rem;
+        padding-top: 5rem;
+        transition: all .9s ease-in;
+     }
+
+     #showcase .menu .media {
+         display: none;
+     }
+    
+    #showcase ul  {
+        font-size: 9.7px;
     }
- 
     .menubar {
         padding: 1.5rem 0;
         width: 100%;
@@ -581,10 +621,27 @@ input {
     }
    
     /**introblocks **/
+    
+    .section-title {
+        font-size: 1.2rem;
+    }
+
     #introblocks .items {
         margin-left: -0.2rem;
+        padding-top: 2.3rem;
     }
     /** section referance **/
+     
+    .ref-short ul li {
+        font-size: 11px;
+    }
+
+    .ref-short strong {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+
     .bg-img img {
         width: 360px;
         height: 280px;
@@ -596,9 +653,9 @@ input {
     }
     
     .ref-short .btn {
-        margin-left: 1.2rem;
-        margin-top: 1.6rem;
-        margin-bottom: 4rem;   
+        margin-left: 5.6rem;
+        margin-top: 2.6rem;
+        margin-bottom: 3.8rem;   
     }
    /**wrapper row3 **/
     .excerpt {
@@ -693,19 +750,10 @@ input {
  
     .menubar h1 {
          margin-bottom: 1rem;
+         font-size: 1.7rem;
      }
     
-    .menubar ul {
-        position: fixed ;
-        width: 77%;
-        height: 31vh;
-        background: #2c3c4b;
-        top: 11.6rem;
-        left: -100%;
-        display: block;
-        margin-left: 2rem;
-    }
- 
+   
     .menubar {
         padding: 1.5rem 0;
         width: 100%;
@@ -714,7 +762,26 @@ input {
         text-align: center;
         align-items: center;
     }
- 
+    
+    .menu {
+        position: fixed ;
+        width:100%;
+        height: 55vh;
+        background: #2c3c4b;
+        top: 13.7rem;
+        left: -100%;
+        padding-top: 5rem;
+        transition: all .9s ease-in;
+     }
+
+     #showcase .menu .media {
+         display: none;
+     }
+    
+    #showcase ul  {
+        font-size: 10px;
+    }
+
     #check:checked ~ ul {
         left:0;
     }
@@ -726,7 +793,7 @@ input {
     }
     .from-group {
        
-        margin-top: 4rem;
+        margin-top: 10rem;
     }
 
     .showcase-container {
@@ -737,15 +804,40 @@ input {
     }
     #showcase {
      
-        min-height:95vh;  
+        min-height:80vh;  
     }
    
     /**introblocks **/
+    .section-title{
+        font-size: 1.3rem;
+    }
+
     #introblocks .items {
         margin-left: -0.2rem;
         padding-bottom: 4rem;
+        padding-top: 2.2rem;
+    }
+
+    #introblocks .items i {
+        font-size: 3rem;
+    }
+
+    #introblocks .items h2 {
+        font-size: 1.7rem;
     }
     /** section referance **/
+    
+    .ref-short ul li {
+        font-size: 12px;
+    }
+
+    .ref-short strong {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+
+
     .bg-img img {
         width: 375px;
         height: 280px;
@@ -757,9 +849,13 @@ input {
     }
     
     .ref-short .btn {
-        margin-left: 1.2rem;
-        margin-top: 1.6rem;
-        margin-bottom: 4rem;   
+        margin-left: 5.5rem;
+        margin-top: 2.8rem;
+        margin-bottom: 3.8rem;   
+    }
+
+    .btn {
+        padding: 1rem 2rem;
     }
    /**wrapper row3 **/
     .excerpt {
@@ -866,7 +962,7 @@ input {
     .menu {
         position: fixed ;
         width: 100%;
-        height: 54vh;
+        height: 51vh;
         background: #2c3c4b;
         top: 13.6rem;
         left: -100%;
@@ -876,12 +972,13 @@ input {
     
 
     #showcase ul  {
-        font-size: 8px;
+        font-size: 11px;
+    }
+
+    #showcase  .menu .media {
+        display: none;
     }
     
-    #showcase ul li:hover ul {
-        top: 28px;
-    }
  
     #check:checked ~ ul {
         left:0;
@@ -899,7 +996,7 @@ input {
     }
     .from-group {
        
-        margin-top: 3rem;
+        margin-top: 5.7rem;
         margin-bottom: -5rem;
     }
 
@@ -916,14 +1013,39 @@ input {
     }
    
     /**introblocks **/
+    
+    .section-title {
+        font-size: 1.2rem;
+    }
+
     #introblocks .items {
         margin-left: -0.2rem;
+        padding-top: 2.2rem;
+    }
+
+    #introblocks .items h2 {
+        font-size: 1.6rem;
     }
     /** section referance **/
+
+    .section-title p {
+        padding: 0rem 0.2rem;
+        padding-top: 1rem;
+    }
+    
+    .ref-short ul li {
+        font-size: 12.5px;
+    }
+
+    .ref-short strong {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
     .bg-img img {
-        width: 375px;
+        width: 410px;
         height: 280px;
-        padding: 0.9rem 1.2rem;
+        padding: 0.9rem 1.5rem;
     }
     
     .bg-img {
@@ -931,9 +1053,13 @@ input {
     }
     
     .ref-short .btn {
-        margin-left: 1.2rem;
-        margin-top: 1.6rem;
+        margin-left: 6.5rem;
+        margin-top: 2.8rem;
         margin-bottom: 4rem;   
+    }
+
+    .btn {
+        padding: 1.1rem 2rem;
     }
    /**wrapper row3 **/
     .excerpt {
@@ -1037,7 +1163,7 @@ input {
      .menu {
         position: fixed ;
         width: 100%;
-        height: 58vh;
+        height: 51vh;
         background: #2c3c4b;
         top: 13.6rem;
         left: -100%;
@@ -1053,6 +1179,10 @@ input {
     #showcase ul  {
         font-size:11px;
      
+    }
+
+    #showcase #media-1 {
+        display: none;
     }
     
     #showcase ul li:hover ul {
@@ -1093,9 +1223,33 @@ input {
 
     #showcase {
      
-        min-height:106vh;
+        min-height:100vh;
         
     }
+
+    /* introblocks */
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .section-title p {
+        font-size: 1rem;
+      
+    }
+    
+    #introblocks .items {
+        padding-top: 3rem;
+    }
+    #introblocks .items h2 {
+        font-size: 1.4rem;
+    } 
+
+    #introblocks .items i {
+        font-size: 3.3rem;
+    }
+
+  
    /*wrapper*/
     .w-container {
         padding: 3.5rem 1.3rem;

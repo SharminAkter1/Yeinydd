@@ -659,11 +659,15 @@ input {
     .checkbtn {
         display: block;
     }
+
+    .checkbtn span {
+        font-size: 1.4rem;
+    }
    
      .menu {
        position: fixed ;
        width: 100%;
-       height: 64vh;
+       height: 43vh;
        background: #2c3c4b;
        top: 10.4rem;
        left: -100%;
@@ -680,7 +684,7 @@ input {
     }
    
     .menubar h1 {
-        font-size: 1.3rem;
+        font-size: 2.4rem;
     }
     
     .menubar-container {
@@ -705,24 +709,59 @@ input {
     }
     #showcase {
      
-        min-height:85vh;  
+        min-height:95vh;  
+    }
+
+    .from-group {
+       
+        margin-top: 7rem;
+    }
+    .from-group button {
+        width: 9%;
     }
 
     input {
-        padding: 0.9rem;
-        width: 23%;
+        padding: 1.7rem;
+        width: 44%;
     }
     /* introblocks */
+    .section-title {
+       font-size: 1.8rem;   
+    }
+    
+    .section-title p {
+        font-size: 1.4rem;
+        padding-top: 0.9rem;
+    }
+
     #introblocks .items {
         padding-left: 1rem;
         padding-right: 1rem;
+        padding-top: 5.5rem;
+    }
+
+    #introblocks i {
+        font-size: 3.8rem;
     }
     /*section refarence */
+
+    
+    .ref-short ul li {
+        font-size: 1.3rem;
+        padding-top: 2.2rem;
+        padding-bottom: 1.4rem;
+    }
+
 
     .bg-img img {
         width: 260px;
         height: 190px;
-        padding: 0.9rem 1rem;
+        padding: 0.8rem 1rem;
+    }
+
+    .ref-short .btn {
+        padding: 1.6rem 4rem;
+        font-size: 1.3rem;
     }
     /*wrapper3*/
     #home-container {
@@ -733,6 +772,7 @@ input {
     text-align: left;
     margin-left: 1.3rem;
     padding: 0 1rem;
+    font-size: 0.9rem;
    
     }
  
@@ -746,7 +786,13 @@ input {
 
     #testimonials {
        padding-top: 35rem;
-    }
+    } 
+
+   /***wrapper***/
+   .wrapper-row h2 {
+       font-size: 1.2rem;
+   }
+
     /* Footer*/
     .footer-container {
         margin-left:  2.1rem;
@@ -785,35 +831,44 @@ input {
     
     .block-clear {
         padding: 0rem 0.6rem;
-       
     }
 
     .wrapper2 p {
         color: #cacdcf;
-        padding: 0.5rem 2.5rem;
+        padding: 2rem 2.6rem;
     }
 }
 
 
 @media(min-width: 1024px) and (max-width: 1300px) {
     /* menubar & showcase */
-    .menubar h1 {
-        font-size: 1.3rem;
+     .menubar h1 {
+        font-size: 2.6rem;
     }
     
     .menubar-container {
         padding: 5rem 1rem;
     }
+  
+
     #showcase ul li {
         padding: 0.4rem;  
+        font-size: 1.2rem;
     }
+
+    #showcase  #media-1 {
+        display: none;
+    }
+    
 
     #showcase p {
         padding: 0 18rem;
+        font-size: 1.4rem;
     }
 
-    #showcase h1 {
+    .showcase-container h1 {
         padding: 0 0.2rem;
+        font-size: 4.3rem;
     }
    
     .showcase-container {
@@ -823,24 +878,69 @@ input {
       
     }
     #showcase {
-     
-        min-height:60vh;  
+        min-height:63vh;  
+    }
+
+    .from-group {
+       margin-top: 7rem;
+       
+    }
+
+    .from-group button {
+        width: 7%; 
+    }
+
+    .from-group .fas {
+        font-size: 1.3rem;
     }
 
     input {
-        padding: 1.1rem 1.2em;
-        width: 27%;
+        padding: 1.7rem 1.4rem;
+        width: 35%;
+        font-size: 1.5rem;
     }
     /* introblocks */
+
+    .section-title {
+        font-size: 2.3rem;
+    }
+
+    .section-title p {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
     #introblocks .items {
         padding-left:  0.5rem;
         padding-right:  0.5rem;
     }
 
+    #introblocks .items h2 {
+        font-size: 2rem;
+    } 
+
+    #introblocks .items i {
+        font-size: 4rem;
+    }
+
     #introblocks .items .item {
-        padding: 1.3rem;
+        padding: 1.4rem;
     }
     /*referance*/
+    .ref-short ul li {
+        font-size: 1.6rem;
+        padding-top: 2.2rem;
+        padding-bottom: 1.4rem;
+    }
+
+    .ref-short .btn {
+        font-size: 1.4rem;
+        padding: 1.5rem 2.4rem;
+        margin: 5rem 0;
+        margin-bottom: 6.3rem;
+    }
+
+
     .bg-img img {
         width: 330px;
         height: 270px;
@@ -857,19 +957,58 @@ input {
         text-align: left;
         margin-left: 2.6rem;
         padding: 0 0rem;
+        font-size: 1rem;
     }
     /*testimonials*/
     .test-container {
         margin: 4.3rem 2.3rem;
     }
 
+    .testimonials-content {
+        padding-top: 4.2rem;
+    }
+
     #testimonials {
       padding-top: 25rem;
+      min-height: 53vh;
+
     }
+    
+    #testimonials img {
+        width: 100px;
+        height: 100px;
+        margin-top: 0.9rem;
+    }
+    
+    .test-container {
+        margin: 4.3rem 3rem;
+    }
+    
+    .test-container .test-excerpt {
+       margin-left: 8rem;
+    }
+
+    .test-excerpt p {
+        font-size: 1.1rem;
+    }
+
+    .test-excerpt h3 {
+        margin-top: 1.1rem ;
+        font-size: 1.5rem;
+    }
+    
+    .test-excerpt .test {
+        font-size: 0.9rem;
+    }
+
     /* Footer*/
     .footer-container {
         margin-left:  2.2rem;
         margin-right: 0.2rem;
+    }
+
+    #main-footer h3 {
+        font-size: 1.33rem;
     }
     
     #main-footer .icons i {
@@ -894,18 +1033,23 @@ input {
     } 
     /*Below the border*/
     .ct-details ul  {
-        padding-left: 1.5rem;
+        padding-left: 1.6rem;
         margin: 0rem;
-        padding:4rem 1;
-    }
-    
-    .block-clear {
-        padding: 0rem 0.6rem;
-       
+        padding:4rem 1rem;
+        font-size: 1.1rem;
     }
 
+    .block-clear i{
+        font-size: 1.5rem;
+    }
+    
+    .block-clear strong {
+        font-size: 1.3rem;
+    }
+     
     .wrapper2 p {
-        padding: 1.5rem 2.5rem;
+        font-size: 1.4rem;
+        padding: 2.3rem 3rem;
     }
 }
 
