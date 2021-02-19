@@ -11,7 +11,7 @@
 }
 
 .menubar h1 {
-    font-size:1.4rem ;
+    font-size: 1.2rem ;
     color: #fff;
 }
 
@@ -248,7 +248,7 @@ input {
     .menubar ul {
        position: fixed ;
        width: 77%;
-       height: 31vh;
+       height: 50vh;
        background: #2c3c4b;
        top: 11.6rem;
        left: -100%;
@@ -1158,12 +1158,14 @@ input {
  
     .menubar h1 {
          margin-bottom: 1rem;
+        
+         
      }
     
      .menu {
         position: fixed ;
         width: 100%;
-        height: 51vh;
+        height: 60vh;
         background: #2c3c4b;
         top: 13.6rem;
         left: -100%;
@@ -1177,7 +1179,7 @@ input {
     
 
     #showcase ul  {
-        font-size:11px;
+        font-size:0.7rem;
      
     }
 
@@ -1203,28 +1205,55 @@ input {
     }
     
     input{
-        width: 40%;
-        padding: 1rem ;
-       
+        width:20%;
+        padding: 0.1rem ;
+    }
+    #showcase p {
+        padding: 0.1rem  12rem;
     }
 
+    #showcase h1 {
+        padding: 0 0.2rem;
+    
+    }
+   
+    .showcase-container {
+        text-align: center;
+        padding: 3.2rem 0.2rem;
+        line-height: 1.1;
+      
+    }
   
     .from-group {
-       
+        margin-top: 7rem;
+    }
+
+    .from-group button {
+        width: 5%;
+    }
+
+    input {
+        padding: 0.1rem;
+        width: 26%;
+    }
+  
+    .from-group {
         margin-top: 3rem;
         margin-bottom: -5rem;
     }
 
-    .showcase-container {
-        text-align: center;
-        padding: 5rem 2rem;
-        line-height: 1.1;
+    .from-group .fas {
+        font-size: 0.9rem;
+    }
+
+   
+    #showcase h1 {
+        font-size: 2.5rem;
+        padding: 0  1rem;
     }
 
     #showcase {
-     
-        min-height:100vh;
-        
+        min-height:120vh;
     }
 
     /* introblocks */
@@ -1259,6 +1288,7 @@ input {
     /**testimonials**/
     #testimonials {
         padding-top: 29rem;
+        height: 88vh;
     }
 
  

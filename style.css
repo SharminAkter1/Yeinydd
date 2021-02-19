@@ -661,13 +661,13 @@ input {
     }
 
     .checkbtn span {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
    
      .menu {
        position: fixed ;
        width: 100%;
-       height: 43vh;
+       height: 67vh;
        background: #2c3c4b;
        top: 10.4rem;
        left: -100%;
@@ -684,7 +684,7 @@ input {
     }
    
     .menubar h1 {
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
     
     .menubar-container {
@@ -717,20 +717,20 @@ input {
         margin-top: 7rem;
     }
     .from-group button {
-        width: 9%;
+        width: 5%;
     }
 
     input {
-        padding: 1.7rem;
-        width: 44%;
+        padding: 0.9rem;
+        width: 30%;
     }
     /* introblocks */
     .section-title {
-       font-size: 1.8rem;   
+       font-size: 1.3rem;   
     }
     
     .section-title p {
-        font-size: 1.4rem;
+        font-size: 1rem;
         padding-top: 0.9rem;
     }
 
@@ -741,13 +741,13 @@ input {
     }
 
     #introblocks i {
-        font-size: 3.8rem;
+        font-size: 3rem;
     }
     /*section refarence */
 
     
     .ref-short ul li {
-        font-size: 1.3rem;
+        font-size: 0.9rem;
         padding-top: 2.2rem;
         padding-bottom: 1.4rem;
     }
@@ -760,8 +760,8 @@ input {
     }
 
     .ref-short .btn {
-        padding: 1.6rem 4rem;
-        font-size: 1.3rem;
+        padding: 0.7rem 1.6rem;
+        font-size: 0.9rem;
     }
     /*wrapper3*/
     #home-container {
@@ -843,7 +843,7 @@ input {
 @media(min-width: 1024px) and (max-width: 1300px) {
     /* menubar & showcase */
      .menubar h1 {
-        font-size: 2.6rem;
+        font-size: 1.8rem;
     }
     
     .menubar-container {
@@ -853,7 +853,7 @@ input {
 
     #showcase ul li {
         padding: 0.4rem;  
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
 
     #showcase  #media-1 {
@@ -862,13 +862,13 @@ input {
     
 
     #showcase p {
-        padding: 0 18rem;
-        font-size: 1.4rem;
+        padding: 0  20rem;
+        font-size: 0.99rem;
     }
 
     .showcase-container h1 {
         padding: 0 0.2rem;
-        font-size: 4.3rem;
+        font-size: 3.4rem;
     }
    
     .showcase-container {
@@ -882,32 +882,32 @@ input {
     }
 
     .from-group {
-       margin-top: 7rem;
+       margin-top: 4rem;
        
     }
 
     .from-group button {
-        width: 7%; 
+        width: 4%; 
     }
 
     .from-group .fas {
-        font-size: 1.3rem;
+        font-size: 0.9rem;
     }
 
     input {
-        padding: 1.7rem 1.4rem;
-        width: 35%;
-        font-size: 1.5rem;
+        padding: 0.5rem 1.4rem;
+        width: 23%;
+        font-size: 0.8rem;
     }
     /* introblocks */
 
     .section-title {
-        font-size: 2.3rem;
+        font-size: 1.3rem;
     }
 
     .section-title p {
-        font-size: 1.5rem;
-        padding-top: 1rem;
+        font-size: 1rem;
+        padding-top: 0.8rem;
     }
 
     #introblocks .items {
@@ -916,11 +916,11 @@ input {
     }
 
     #introblocks .items h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     } 
 
     #introblocks .items i {
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
 
     #introblocks .items .item {
@@ -928,14 +928,14 @@ input {
     }
     /*referance*/
     .ref-short ul li {
-        font-size: 1.6rem;
+        font-size: 0.8rem;
         padding-top: 2.2rem;
         padding-bottom: 1.4rem;
     }
 
     .ref-short .btn {
-        font-size: 1.4rem;
-        padding: 1.5rem 2.4rem;
+        font-size: 0.8rem;
+        padding: 0.8rem 1.2rem;
         margin: 5rem 0;
         margin-bottom: 6.3rem;
     }
@@ -957,31 +957,31 @@ input {
         text-align: left;
         margin-left: 2.6rem;
         padding: 0 0rem;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     /*testimonials*/
     .test-container {
-        margin: 4.3rem 2.3rem;
+        margin: 2rem 2.3rem;
     }
 
     .testimonials-content {
-        padding-top: 4.2rem;
+        padding-top: 2rem;
     }
 
     #testimonials {
       padding-top: 25rem;
-      min-height: 53vh;
+      min-height: 80vh;
 
     }
     
     #testimonials img {
-        width: 100px;
-        height: 100px;
-        margin-top: 0.9rem;
+        width: 90px;
+        height: 90px;
+        margin-top: 0.3rem;
     }
     
     .test-container {
-        margin: 4.3rem 3rem;
+        margin: 4.5rem 3rem;
     }
     
     .test-container .test-excerpt {
@@ -989,16 +989,16 @@ input {
     }
 
     .test-excerpt p {
-        font-size: 1.1rem;
+        font-size: 0.8rem;
     }
 
     .test-excerpt h3 {
-        margin-top: 1.1rem ;
-        font-size: 1.5rem;
+        margin-top: 0.6rem ;
+        font-size: 0.8rem;
     }
     
     .test-excerpt .test {
-        font-size: 0.9rem;
+        font-size: 0.6rem;
     }
 
     /* Footer*/
@@ -1008,7 +1008,7 @@ input {
     }
 
     #main-footer h3 {
-        font-size: 1.33rem;
+        font-size: 1.2rem;
     }
     
     #main-footer .icons i {
@@ -1035,16 +1035,16 @@ input {
     .ct-details ul  {
         padding-left: 1.6rem;
         margin: 0rem;
-        padding:4rem 1rem;
-        font-size: 1.1rem;
+        padding:4rem 6.7rem;
+        font-size: 0.8rem;
     }
 
     .block-clear i{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     
     .block-clear strong {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
      
     .wrapper2 p {
